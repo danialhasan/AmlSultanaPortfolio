@@ -80,7 +80,7 @@ a {
 
 #headerText {
     width: 600px;
-    /*    border: 1px solid green;*/
+    border: 1px solid green;
     position: absolute;
     left: 50%;
     margin-left: -300px;
