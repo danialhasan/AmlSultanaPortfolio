@@ -186,20 +186,19 @@ a {
     }
 
     #leftNavSection {
-        margin: 100px 0px 0px 40px
+        margin: 100px 0px 0px 40px;
     }
 
     #rightNavSection {
         margin: 0px 0px 0px 40px
     }
 
-
-
     #rightNavSection ul,
     #leftNavSection ul {
         display: block;
         float: left;
         font-size: 60px;
+        /*        background-color: black;*/
     }
 
     #leftNavSection ul li {
@@ -207,6 +206,8 @@ a {
         float: none;
         /*        border: 2px solid black;*/
         border-bottom: 2px solid black;
+        color: black;
+
     }
 
     #rightNavSection ul li a img {
