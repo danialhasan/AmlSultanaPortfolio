@@ -171,9 +171,9 @@ a {
         width: 50%;
         height: 100vh;
         /*thank the lord*/
-        background-color: white;
+        background-color: rgb(15, 14, 22);
         z-index: 100;
-        border: 5px solid red;
+        /*        border: 5px solid red;*/
     }
 
     #rightNavSection,
@@ -206,7 +206,7 @@ a {
         float: none;
         /*        border: 2px solid black;*/
         border-bottom: 2px solid black;
-        color: black;
+        color: white;
 
     }
 
