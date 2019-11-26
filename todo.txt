@@ -1,10 +1,10 @@
 + Design mobile nav
-- Make menu button toggleable
++ Make menu button toggleable
 - make links clickable
-- add image flexbox
++ add image flexbox
 - add all images + image sections
 
 # Design mobile nav
-- fix margin issues
++ fix margin issues
 - fix spacing issues in mobile nav
 
