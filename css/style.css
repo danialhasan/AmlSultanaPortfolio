@@ -208,10 +208,9 @@ a:hover {
 
 
 
-@media only screen and (max-device-width:550px)
+@media only screen and (max-device-width:550px) {
 
-/*if total width of the device itself is less than 550px, this will activate. This doesn't care about the size of the browser. Therefore, resizing to an iphone screen with a browser will not work - only viewing on an iphone will activate this.*/
-    {
+    /*if total width of the device itself is less than 550px, this will activate. This doesn't care about the size of the browser. Therefore, resizing to an iphone screen with a browser will not work - only viewing on an iphone will activate this.*/
 
     /*    Mobile screens*/
     #menuButton {
@@ -313,6 +312,10 @@ a:hover {
 
     #picture h3 {
         font-size: 32px;
+    }
+
+    #picture img {
+        /*        width: 20%;*/
     }
 }
 
