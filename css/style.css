@@ -130,7 +130,7 @@ a:hover {
 #picturesContainer {
     margin: 160px auto 0px auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     min-width: 750px;
@@ -141,7 +141,21 @@ a:hover {
 }
 
 #picture {
-    /*    border: 1px solid white;*/
+    max-width: 800px;
+}
+
+.pictureHeader {
+    margin: 0px auto;
+    /*    border: 1px solid red;*/
+    width: 100%;
+    color: white;
+    height: 80px;
+}
+
+.pictureHeader h2 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
 }
 
 #picture img {
@@ -149,8 +163,6 @@ a:hover {
     /*    max-width: 300px;*/
     height: 528px;
     padding: 20px;
-
-    /*    border: 10px solid red;*/
 }
 
 #picture h3 {
@@ -159,6 +171,41 @@ a:hover {
     font-weight: normal;
     padding-bottom: 20px;
 }
+
+.pictureSection {
+    width: inherit;
+    height: inherit;
+    display: inherit;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#picture:nth-of-type(6) img,
+#picture:nth-of-type(7) img,
+#picture:nth-of-type(8) img,
+#picture:nth-of-type(9) img {
+    width: 600px;
+}
+
+#instagramPosts {
+    width: 100%;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0px auto;
+    /*    border: 10px solid yellow*/
+}
+
+#instagramPic {
+    width: 33%;
+    height: auto;
+    margin: 0px auto;
+    /*    border: 1px solid red;*/
+}
+
+
 
 
 @media only screen and (max-device-width:550px)
