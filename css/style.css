@@ -181,6 +181,10 @@ a:hover {
     justify-content: center;
 }
 
+.pictureSection:nth-of-type(2) {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
 
 #picture:nth-of-type(6) img,
 #picture:nth-of-type(7) img,
@@ -316,6 +320,11 @@ a:hover {
 
     #picture img {
         /*        width: 20%;*/
+    }
+
+    .pictureSection:nth-of-type(2) {
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 }
 

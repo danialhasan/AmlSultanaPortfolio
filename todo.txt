@@ -1,10 +1,8 @@
-+ Design mobile nav
-+ Make menu button toggleable
-- make links clickable
-+ add image flexbox
-- add all images + image sections
+TODO LIST
+-Product description template page
+-Find way to pass image and description to template sections when image on main page is clicked
 
-# Design mobile nav
-+ fix margin issues
-- fix spacing issues in mobile nav
+-gallery page
+-about me page
+-contact me page
 
