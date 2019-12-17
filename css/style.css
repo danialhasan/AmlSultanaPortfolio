@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(15, 14, 22);
+    background-color: rgb(18, 18, 18);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -78,7 +78,7 @@ li:first-of-type {
 
 a {
     display: block;
-    color: white;
+    color: whitesmoke;
     text-decoration-line: none;
     /*makes whole link area clickable, not just text*/
     /*    background-color: black;*/
@@ -100,7 +100,7 @@ a:hover {
 }
 
 #leftNavSection ul li {
-    color: white;
+    color: whitesmoke;
 }
 
 #rightNavSection ul li:last-of-type {
@@ -121,7 +121,7 @@ a:hover {
     font-size: 80px;
     text-align: center;
     font-weight: 700;
-    color: white;
+    color: whitesmoke;
     /*    color:black*/
     text-decoration-line: none;
 }
@@ -148,7 +148,7 @@ a:hover {
     margin: 0px auto;
     /*    border: 1px solid red;*/
     width: 100%;
-    color: white;
+    color: whitesmoke;
     height: 80px;
 }
 
@@ -166,7 +166,7 @@ a:hover {
 }
 
 #picture h3 {
-    color: white;
+    color: whitesmoke;
     text-align: center;
     font-weight: normal;
     padding-bottom: 20px;
@@ -209,8 +209,138 @@ a:hover {
     /*    border: 1px solid red;*/
 }
 
+#aboutMeContainer {
+    margin: 250px auto 0px auto;
+    width: 90vw;
+    height: 70vh;
+    /*    border: 1px solid red;*/
+
+}
+
+#aboutMeHeader {
+    width: 600px;
+    /*    border: 1px solid green;*/
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    margin-left: -300px;
+    text-align: center;
+    /*    margin-top: -40px;*/
+}
+
+#aboutMeHeader h2 {
+    color: whitesmoke;
+    font-size: 45px;
+    font-weight: normal;
+    font-weight: 500;
+}
+
+#left {
+    float: left;
+    /*    display: inline-block;*/
+    width: 50%;
+    height: 100%;
+    /*        background-color: whitesmokesmoke;*/
+}
+
+#left p {
+    font-weight: normal;
+    color: whitesmoke;
+    /*    margin-top: 50px;*/
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 25px;
+
+}
+
+#left p:last-of-type {
+    margin-top: 50px;
+}
+
+#right {
+    /*    float: right;*/
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    /*    background-color: aqua;*/
+
+}
+
+#artisticInfo {
+    width: 100%;
+    margin-top: 50px;
+    height: auto;
+    /*    border: 5px solid blue;*/
+    color: whitesmoke;
+    padding-right: 25px;
+}
+
+#artisticInfo h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#artisticInfo ul li {
+    margin: 0px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#artisticInfo ul li:first-of-type {
+    margin-top: 20px;
+}
 
 
+
+
+.aboutMeImage {
+    /*    display: inline;*/
+    height: 100%;
+    padding-left: 25px;
+}
+
+.emphasize {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#FAQ {
+    width: 100vw;
+    height: 100vh;
+    color: whitesmoke;
+}
+
+#FAQ ul li {
+    margin: 0 0 0 80px;
+    padding: 18px;
+    max-width: 1000px;
+    /*    display: inline;*/
+}
+
+#FAQ ul li p {
+    padding: 20px 0px;
+}
+
+#FAQ h2 {
+    font-size: 45px;
+    margin: 40px auto;
+    text-align: center;
+    font-weight: 500;
+}
+
+#FAQ h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+@media only screen and (min-width:2560px) {
+    #picturesContainer {
+        width: 75vw;
+        /*        background-color: whitesmoke*/
+    }
+}
 
 @media only screen and (max-device-width:550px) {
 
@@ -262,7 +392,7 @@ a:hover {
     }
 
     #rightNavSection {
-        margin: 0px 0px 0px 30px
+        margin-left: 30px
     }
 
     #rightNavSection ul,
@@ -278,7 +408,7 @@ a:hover {
         float: none;
         /*        border: 2px solid black;*/
         border-bottom: 2px solid black;
-        color: white;
+        color: whitesmoke;
     }
 
     #leftNavSection ul li a h2 {
@@ -306,7 +436,7 @@ a:hover {
     .burgerLine {
         height: 15px;
         width: 100%;
-        background-color: white;
+        background-color: whitesmoke;
         /*        border: 1px solid red;*/
     }
 
@@ -316,10 +446,6 @@ a:hover {
 
     #picture h3 {
         font-size: 32px;
-    }
-
-    #picture img {
-        /*        width: 20%;*/
     }
 
     .pictureSection:nth-of-type(2) {
