@@ -521,6 +521,19 @@ a:hover {
     #FAQ {
         margin-top: 800px;
     }
+
+    #FAQ h2 {
+        font-size: 70px;
+        font-weight: 700;
+    }
+
+    #FAQ ul li h3 {
+        font-size: 60px;
+    }
+
+    #FAQ ul li p {
+        font-size: 40px;
+    }
 }
 
 /*
