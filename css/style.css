@@ -389,6 +389,14 @@ a:hover {
         font-size: 40px
     }
 
+    #artisticInfo h1 {
+        font-size: 40px;
+    }
+
+    #artisticInfo li h2 {
+        font-size: 30px;
+    }
+
     #navBar {
         display: none;
         position: absolute;
@@ -494,6 +502,10 @@ a:hover {
         margin-top: 0px;
     }
 
+    #left p {
+        font-size: 28px;
+    }
+
     #right {
         display: block;
         width: 90vw;
@@ -514,12 +526,13 @@ a:hover {
         padding: 0px;
     }
 
+
     #picturesContainer {
         width: 100%;
     }
 
     #FAQ {
-        margin-top: 600px;
+        margin-top: 1000px;
     }
 
     #FAQ h2 {
