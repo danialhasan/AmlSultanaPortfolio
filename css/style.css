@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 body {
@@ -153,7 +154,7 @@ a:hover {
 }
 
 .pictureHeader h2 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
 }
@@ -314,11 +315,11 @@ a:hover {
     width: 100vw;
     height: 100vh;
     color: whitesmoke;
-    margin-top: 50px;
+    margin: 50px auto 0px auto;
 }
 
 #FAQ ul li {
-    margin: 0 0 0 80px;
+    margin: 0 0 0 144px;
     padding: 18px;
     max-width: 1000px;
     /*    display: inline;*/
@@ -369,7 +370,7 @@ a:hover {
     }
 
     #headerText h1 {
-        font-size: 20px;
+        font-size: 1.25rem;
         margin: 0px;
         left: 0px
     }
@@ -481,8 +482,27 @@ a:hover {
         margin: 7px 0px;
     }
 
+    #picture {
+        min-width: 60%;
+        margin: 0px auto
+    }
+
     #picture h3 {
-        font-size: 32px;
+        font-size: 2rem;
+    }
+
+    #picture a {
+        margin: 0px auto
+    }
+
+    #picture img {
+        display: block;
+        margin: 0px auto;
+    }
+
+
+    .pictureSection {
+        /*        width: ;*/
     }
 
     .pictureSection:nth-of-type(2) {
