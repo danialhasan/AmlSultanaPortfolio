@@ -212,6 +212,7 @@ a:hover {
 #aboutMeContainer {
     margin: 250px auto 0px auto;
     width: 90vw;
+    max-width: 1920px;
     height: 70vh;
     /*    border: 1px solid red;*/
 
@@ -263,8 +264,13 @@ a:hover {
     display: inline-block;
     width: 50%;
     height: 100%;
+    /*    border: 1px solid red*/
     /*    background-color: aqua;*/
-
+    /*
+    background-image: image("amlsultana.jpeg");
+    background-position: center;
+    background-size: cover;
+*/
 }
 
 #artisticInfo {
@@ -291,13 +297,11 @@ a:hover {
     margin-top: 20px;
 }
 
-
-
-
 .aboutMeImage {
     /*    display: inline;*/
     height: 100%;
-    padding-left: 25px;
+    /*    padding-left: 25px;*/
+    object-fit: cover
 }
 
 .emphasize {
@@ -309,6 +313,7 @@ a:hover {
     width: 100vw;
     height: 100vh;
     color: whitesmoke;
+    margin-top: 50px;
 }
 
 #FAQ ul li {
@@ -340,6 +345,8 @@ a:hover {
         width: 75vw;
         /*        background-color: whitesmoke*/
     }
+
+    #aboutMeContainer {}
 }
 
 @media only screen and (max-device-width:550px) {
@@ -451,6 +458,26 @@ a:hover {
     .pictureSection:nth-of-type(2) {
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+
+    #left {
+        /*        width:100%;*/
+        margin-top: 600px;
+    }
+
+    #right {
+        width: 100%;
+    }
+
+    .aboutMeImage {
+        position: absolute;
+        top: 12vh;
+        left: 49px;
+        margin: 0px auto;
+        width: 90%;
+        height: 25%;
+        margin: 0px;
+        padding: 0px;
     }
 }
 
