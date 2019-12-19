@@ -487,11 +487,11 @@ a:hover {
 
         display: block;
         position: absolute;
-        top: 60%;
+        top: 70%;
         width: 100%;
         height: auto;
         padding: 0 50px;
-        margin-top: 50px;
+        margin-top: 0px;
     }
 
     #right {
