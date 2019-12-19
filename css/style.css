@@ -484,7 +484,10 @@ a:hover {
 
     #picture {
         min-width: 60%;
-        margin: 0px auto
+        margin: 0px auto;
+        /*        background-color: red;*/
+        /*        border: 1px solid red;*/
+        height: 600px;
     }
 
     #picture h3 {
@@ -523,7 +526,7 @@ a:hover {
     }
 
     #left p {
-        font-size: 28px;
+        font-size: 35px;
     }
 
     #right {
@@ -552,7 +555,7 @@ a:hover {
     }
 
     #FAQ {
-        margin-top: 1000px;
+        margin-top: 600px;
     }
 
     #FAQ h2 {
@@ -560,12 +563,16 @@ a:hover {
         font-weight: 700;
     }
 
+    #FAQ ul li {
+        margin: 0px auto
+    }
+
     #FAQ ul li h3 {
-        font-size: 60px;
+        font-size: 30px;
     }
 
     #FAQ ul li p {
-        font-size: 40px;
+        font-size: 20px;
     }
 }
 
